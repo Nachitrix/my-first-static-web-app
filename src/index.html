@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0078D4;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .course-card {
+            background: white;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: inline-block;
+            width: 30%;
+        }
+        .enroll-btn {
+            background: #0078D4;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <header>E-Learning Platform</header>
+    <div class="container">
+        <h2>Discover Our Courses</h2>
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript.</p>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+        <div class="course-card">
+            <h3>Data Science</h3>
+            <p>Python, Machine Learning, and AI.</p>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+        <div class="course-card">
+            <h3>Cybersecurity</h3>
+            <p>Protect systems and networks.</p>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
 </body>
-
 </html>
